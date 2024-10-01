@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -20,6 +21,14 @@ header {
   padding: 20px 93px 0px 93px;
 }
 
+.info {
+  width: 580px;
+  height: 96px;
+  border: 1px solid red;
+  border-radius: 28px;
+  backdrop-filter: blur(10px);
+  
+}
 .activity {
   margin: 300px 0px;
   text-align: center;
@@ -50,4 +59,74 @@ header {
 .desc {
   font-size: 16px;
   line-height: 22px;
+}
+
+.destination {
+  text-align: center;
+}
+
+.wrapper {
+  width: 1170px;
+  height: 626px;
+  margin: 76px auto;
+}
+
+.left {
+  width: 580px;
+  height: 626px;
+  background-image: url("../images/bg-1.jpg");
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.left h3 {
+  font-family: "Water Brush", cursive;
+  font-size: 32px;
+  color: #fff;
+  line-height: 67px;
+}
+
+.malaysia-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.malaysia-link {
+  width: 100px;
+  height: 48px;
+  color: #fff;
+  background: linear-gradient(to right, #cd1a40, #ff803c);
+  padding: 16px 17px;
+  border-radius: 18px;
+  display: inline-block;
+}
+
+.right {
+  width: 570px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.dubai,
+.greece {
+  width: 280px;
+  height: 306px;
+  display: inline-block;
+}
+
+.dubai {
+  background-image: url("../images/bg-2.jpg");
+}
+
+.greece {
+  background-image: url("../images/bg-3.jpg");
+}
+
+.right-bottom {
+  width: 580px;
+  height: 306px;
+  background-image: url("../images/bg-4.jpg");
 }
